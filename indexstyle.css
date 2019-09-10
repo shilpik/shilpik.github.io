@@ -16,6 +16,7 @@ h1 {
   text-align: center;
   width: 80%;
   color:#4CAF4F;
+  outline: lightyellow, 2px;
 }
 
 h2 {
