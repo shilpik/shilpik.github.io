@@ -1,0 +1,194 @@
+body {
+  font-family:'Archivo', sans-serif ;
+  font-variant: monospace;
+  font-weight: ;
+  font-style: ;
+  color:white;
+  animation-name: ;
+  animation-duration: ;
+  background: black;
+	overflow: scroll;
+  height:inherit;
+  cursor:cell;
+}
+
+h1 {
+  position: relative;
+  margin:auto;
+  text-align: right;
+  width: 80%;
+  color:white;
+  outline: lightyellow, 5px;
+  font-size:40px ;
+}
+
+h2 {
+  position: relative;
+  vertical-align: middle;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  font-weight: lighter;
+  font-style: monospace;
+  color:white;
+}
+
+a{
+  color:lightgray;
+  size:30px;
+  text-decoration: none;
+}
+
+a.hover{
+  font-style: italic;
+  opacity:20%;
+}
+
+div.feature {
+ Shape: ellipse;
+ color: white;
+}
+
+
+div.spacer{
+  width: 100px;
+  height:100px;
+}
+
+div.smallspacer{
+  width: 100px;
+  height:25px;
+}
+
+div.nav {
+  position: relative;
+  margin:auto;
+  text-align: right;
+  color:lightyellow;
+  font-size:20px;
+  font-weight:thin;
+  font-family: 'Space Mono', monospace;
+  width:80%;
+  font-style: ;
+  font-kerning: 40;
+}
+div.hspace{
+  width:10px;
+}
+
+img.bubble3{
+  margin:auto;
+border-radius: 50%;
+  max-height:300px;
+  max-width:300px;
+  float:left;
+  align:left;
+  opacity:100%;
+
+}
+img.bubble1 {
+  margin:auto;
+border-radius: 50%;
+  height:100px;
+  width:100px;
+  float:left;
+  align:left;
+  opacity:100%;
+}
+img.bubble1:hover, img.bubble2:hover,img.bubble3:hover,div.bubbletext:hover {
+  opacity:30%;
+  font: white;
+}
+
+img.bubble1:onclick, img.bubble2:onclick,img.bubble3:onclick,div.bubbletext:onclick {
+  opacity:0%;
+  font: white;
+}
+
+.hovercap:hover{
+  position:relative;
+  font-size:18px;
+  color:white;
+}
+
+img.bubble2 {
+  margin:auto;
+border-radius: 50%;
+  height:200px;
+  width:200px;
+  float:left;
+  align:left;
+  opacity:100%;
+}
+
+.bubbletext {
+  margin:auto;
+  height:150px;
+  width:150px;
+  display:inline-block;
+  transform:translateY(-50%);
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: white;
+  border-width: thick;
+  padding: top;
+  float:left;
+  align:center;
+  opacity:100%;
+  font-size: 18px;
+  text-align: center;
+  position:inherit;
+  font-family: inherit;
+  color:black;
+  background-color: lightyellow;
+  opacity:80%;
+  content:bottom;
+  line-height: 150px;
+}
+
+img.hbubble {
+  crop:circle;
+  border-radius:100%;
+  max-height:00px;
+  max-width:400px;
+  float:left;
+  align:center;
+  opacity:100%;
+  outline: 2px;
+  outline-color: Yellow;
+}
+
+.spacedate {
+  font-family: "space mono";
+  position: relative;
+  font-size: 40px;
+  text-align: left;
+  font-weight: lighter;
+  color: lightyellow;
+}
+.title {
+  font-family: "archivo";
+  position: relative;
+  font-size: 40px;
+  text-align: left;
+  font-weight: lighter;
+  color: yellow;
+}
+
+.longtext{
+  font-family: "space mono";
+  margin-top:10px;;
+  position:absolute;
+  font-size: 16px;
+  max-width: 60%;
+  text-align: left;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+}
+
+.rightbubbles {
+  align-items:right;
+  position: relative;
+  margin-left: 60%;
+  margin-right: 15%;
+}
