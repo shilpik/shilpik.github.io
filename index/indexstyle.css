@@ -267,7 +267,20 @@ div.myDiv{
   font-stretch: semi-expanded;
 }
 
-#panelamy,#panelalicia,#panelkytana, .flip {
+#panelamy,#panelalicia,#panelkytana{
+  display:none;
+  padding: 10px;
+  text-align: left;
+  background-color:inherit;
+  position:relative;
+  font-family: 'space mono';
+  font-size: 16px;
+  max-width: 60%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+}
+
+.flip {
   padding: 10px;
   text-align: left;
   background-color:inherit;
