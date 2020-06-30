@@ -40,7 +40,6 @@ footer{
 }
 a{
   color:lightpink;
-  size:30px;
   text-decoration: none;
 }
 
@@ -66,20 +65,24 @@ div.smallspacer{
   width: 100px;
   height:25px;
 }
+div.linespace{
+  width:400px;
+  height:200px;
+}
 div.bubbleshome{
   max-width: screen(60%);
   position: relative;
   padding-right:30%;
+  display: block;
 }
 
 div.nav {
-  position: relative;
-  text-align: right;
+  text-align:right;
   color:lightyellow;
   font-size:20px;
   font-weight:thin;
   font-family: 'Space Mono', monospace;
-  font-kerning: 40;
+  font-kerning: 40px;
 }
 div.hspace{
   width:10px;
@@ -93,7 +96,7 @@ border-radius: 50%;
   float:left;
   align:left;
   opacity:100%;
-
+display: block;
 }
 img.bubble1 {
   margin:auto;
@@ -103,6 +106,7 @@ border-radius: 50%;
   float:left;
   align:left;
   opacity:100%;
+  display: block;
 }
 
 img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.rightbubbles:hover{
@@ -135,16 +139,15 @@ border-radius: 50%;
 }
 
 img.full{
-  max-width: 80%;
+  max-width: 70%;
   padding: 10%;
   height: inherit;
-  width: inherit;
-  float:left;
+  float:center;
   display: inline;
   position: relative;
   left:50px;
   top:50px;
-  align:left;
+  align:center;
   z-index: -1;
 }
 
@@ -267,7 +270,7 @@ div.myDiv{
   font-stretch: semi-expanded;
 }
 
-#panelamy,#panelalicia,#panelkytana{
+#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy{
   display:none;
   padding: 10px;
   text-align: left;
@@ -296,10 +299,11 @@ div.musing{
   padding: 2px;
   text-align: left;
   background-color:inherit;
-  font-variant: small-caps;
+  font-variant-caps: all-petite-caps;
+  color:lightyellow;
   position:relative;
   font-family: 'space mono';
-  font-size: 20px;
+  font-size: 28px;
   max-width: 60%;
   font-weight: lighter;
   font-stretch: semi-expanded;
@@ -308,4 +312,30 @@ div.musing{
 #panel {
   display: none;
   font-family: 'space mono';
+}
+
+div.bubblefriend{
+  align:center;
+  display:block;
+  position: relative;
+  max-width:
+}
+
+@media only screen and (max-width: 600px) {
+div.nav {
+    font-size: 20px;
+    position: absolute;
+    text-align:left;
+    display: block;
+}
+footer{
+  left:5%;
+  top:5%;
+  margin: 2px;
+  display: block;
+}
+h1{
+  display: table-cell;
+  position:absolute;
+}
 }
