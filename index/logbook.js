@@ -59,3 +59,44 @@ function myFunctionartamy() {
     x.style.display = "block";
   }
 }
+
+function myFunctionartmalik() {
+  var x =
+  document.getElementById("panelartmalik")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctionartblr() {
+  var x =
+  document.getElementById("panelartblr")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctiondelta() {
+  var x =
+  document.getElementById("paneldelta")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctionartdelta() {
+  var x =
+  document.getElementById("panelartdelta")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
