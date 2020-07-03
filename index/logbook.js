@@ -100,3 +100,23 @@ function myFunctionartdelta() {
     x.style.display = "block";
   }
 }
+function myFunctionarttiare() {
+  var x =
+  document.getElementById("panelarttiare")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctionartserena() {
+  var x =
+  document.getElementById("panelartserena")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

@@ -11,8 +11,9 @@ body {
 }
 
 h1 {
-  position: absolute;
-  left:85%;
+  font-family:'Archivo';
+  position: fixed;
+  right:5%;
   top:5%;
   margin:auto;
   text-align: right;
@@ -28,7 +29,7 @@ h2 {
   align;left;
   width: 80%;
   margin: auto;
-  font-family: "space mono";
+  font-family: 'Space Mono';
   font-weight:100;
   font-size: 40px;
   color:#FED8B1;
@@ -39,6 +40,7 @@ h2 {
 a{
   color:lightpink;
   text-decoration: none;
+  line-height: inherit;
 }
 
 a:hover{
@@ -69,8 +71,37 @@ div.linespace{
 }
 div.bubbleshome{
   max-width: screen(65%);
-  position: relative;
   padding-right:30%;
+  top:50px;
+  left:200px;
+  display: block;
+}
+div.bubbleshome2{
+  max-width: screen(65%);
+  padding-right:30%;
+  top:100px;
+  left:300px;
+  display: block;
+}
+div.bubbleshome3{
+  max-width: screen(65%);
+  padding-right:30%;
+  top:70%;
+  left:50%;
+  display: block;
+}
+div.bubbleshome4{
+  max-width: screen(65%);
+  padding-right:30%;
+  left:30%;
+  top:30%;
+  display: block;
+}
+div.bubbleshome5{
+  max-width: screen(65%);
+  padding-right:30%;
+  top:50%;
+  left:2%;
   display: block;
 }
 
@@ -81,10 +112,10 @@ div.nav {
   font-weight:thin;
   font-family: 'Space Mono', monospace;
   font-kerning: 40px;
-  position: absolute;
-  left:70%;
+  position: fixed;
+  right:12%;
   top:5%;
-  display:block;
+  display:inline-block;
 }
 div.hspace{
   width:10px;
@@ -97,8 +128,22 @@ border-radius: 50%;
   max-width:300px;
   float:left;
   align:left;
-  opacity:100%;
-display: block;
+  opacity:.7;
+  position: relative;
+  display: flex;
+  padding:10px;
+}
+
+img.bubblesmall{
+  margin:auto;
+border-radius: 50%;
+  height:50px;
+  width:50px;
+  float:left;
+  align:left;
+  opacity:.7;
+  display: flex;
+  padding:10px;
 }
 
 img.bubble1 {
@@ -108,12 +153,13 @@ border-radius: 50%;
   width:100px;
   float:left;
   align:left;
-  opacity:100%;
-  display: block;
+  opacity:.7;
+  display: flex;
+  padding:10px;
 }
 
 img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.rightbubbles:hover{
-  opacity:30%;
+  opacity:1;
   font: white;
  transform:scale3d(1.5,1.5,1.5);
    cursor:cell;
@@ -121,9 +167,9 @@ img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.
 
 div.bubbletext:hover, div.rightbubbles:click{
   transform: rotateY(180deg);
-  opacity: 40%;
+  opacity: 1;
   text-transform:uppercase;
-    cursor:cell;
+  cursor:cell;
 }
 .hovercap:hover{
   position:relative;
@@ -138,7 +184,10 @@ border-radius: 50%;
   width:200px;
   float:left;
   align:left;
-  opacity:100%;
+  opacity:70%;
+  display: fixed;
+  display: flex;
+  padding:10px;
 }
 
 img.full{
@@ -166,9 +215,8 @@ img.inline{
 }
 
 .bubbletext {
-  height:150px;
-  width:150px;
-  display:flex;
+  height:120px;
+  width:120px;
   border-radius: 50%;
   border-style: dashed;
   border-color: white;
@@ -178,10 +226,12 @@ img.inline{
   font-size: 12px;
   text-align: center;
   position:relative;
-  font-family: "Space Mono";
+  font-family: 'Space Mono';
   color:black;
   background-color: lightyellow;
-  opacity:60%;
+  opacity:.7;
+  display: flex;
+  padding:10px;
 }
 
 div.bubbletext p{
@@ -191,6 +241,7 @@ div.bubbletext p{
   left:50%;
   margin-right:-50%;
   transform:translate(-50%,-50%);
+
 }
 
 
@@ -241,7 +292,7 @@ div.caption{
   font-family:"space mono";
   font-size: 16px;
   text-align:left;
-  max-width: 70%;
+  max-width: 60%;
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
@@ -259,7 +310,7 @@ div.arttitle{
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
-  margin-left:10%;
+  margin-left:2%;
   padding:2%;
   position:relative;
 }
@@ -273,7 +324,7 @@ div.myDiv{
   font-stretch: semi-expanded;
 }
 
-#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #paneldelta{
+#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #paneldelta, #panelartdelta, #panelarttiare,#panelartserena{
   display:none;
   padding: 10px;
   text-align: left;
@@ -316,9 +367,25 @@ div.exmusing{
   font-variant-caps: all-petite-caps;
   color:white;
   position:relative;
-  line-height: .5em;
+  line-height: 1em;
   font-family: 'space mono';
-  font-size: 36px;
+  font-size: 32px;
+  max-width: 60%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  position: relative;
+  left:2%;
+}
+
+div.vmusing{
+  text-align: left;
+  padding:1em;
+  color:white;
+  position:relative;
+  line-height: 1em;
+  font-family: 'space mono';
+  font-style: italic;
+  font-size: 24px;
   max-width: 60%;
   font-weight: lighter;
   font-stretch: semi-expanded;
@@ -337,27 +404,55 @@ div.bubblefriend{
   max-width:
 }
 
+div.wrapper{
+  background:white;
+  color:black;
+  font-family: 'archivo';
+  font-size: 24px;
+  text-align:center;
+  width:100%;
+  height:30px;
+  top: 0;
+  position: fixed;
+  vertical-align: middle;
+
+}
+
 @media only screen and (max-width: 600px) {
 div.nav {
     font-size: 20px;
-    position: relative;
+    position: absolute;
+    right:22%;
     text-align:right;
     display: block;
-    left:5%;
-    top:5%;
     float:none;
+    margin:2%;
 }
 h1{
   display: table-cell;
   position:absolute;
-  right:5%;
+  right:1%;
 
 }
-div.bubble1,div.bubble2,div.bubble3,div.bubbletext{
+img.bubble1,img.bubble2,img.bubble3{
   float:none;
 }
 
-bubbleshome{
-  max-width: 80%;
+div.bubbletext{
+  transform: scale(.7);
 }
+
+.bubbleshome{
+  max-width: 90%;
+}
+
+div.bubbleshome2,div.bubbleshome3, div.bubbleshome5{
+  display:none;
+}
+
+div.exmusing, h2, div.arttitle{
+  transform:scale(.7);
+  left:2%;
+}
+
 }
